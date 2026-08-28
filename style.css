@@ -50,4 +50,37 @@
   .booking-form {
     width: 100%;
   }
-}
+  @media (max-width: 600px) {
+
+  .booking-form {
+    width: 100%;
+  }
+
+  .booking-row {
+    display: block;
+  }
+
+  .booking-row > div {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .booking-form label {
+    display: block;
+    width: 100%;
+    margin-bottom: 6px;
+  }
+
+  .booking-form input,
+  .booking-form select {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+  }
+
+  .booking-form .whatsapp {
+    width: 100%;
+    margin-top: 10px;
+  }
+  }
