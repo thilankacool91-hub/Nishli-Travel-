@@ -84,3 +84,14 @@
     margin-top: 10px;
   }
   }
+  .logo img {
+  height: 55px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
